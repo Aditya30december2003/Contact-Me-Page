@@ -1,1 +1,40 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.contact-container{
+    background-color: grey;
+    margin: 2rem 20rem;
+    width: 40rem;
+    height: 30rem;
+    padding: 2rem 4rem;
+    border-radius: 1rem;
+}
+.contact-container input{
+    width: 30rem;
+    margin: 0.5rem 0rem;
+    height: 2rem;
+    padding-left: 0.5rem;
+    border: none;
+    outline: none;
+    border-radius: 1rem;
+}
+textarea{
+    width: 30rem;
+    outline: none;
+    border-radius: 0.3rem;
+    padding: 0.5rem 0.7rem;
+}
+.send{
+  cursor: pointer; 
+  margin: 2rem 12rem;  
+  width: 7rem; 
+  border: none;
+  height: 2rem;
+  border-radius: 2rem;
+}
